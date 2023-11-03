@@ -1,0 +1,59 @@
+<!--
+PANDEMONIUM (from README):
+
+
+# Pandemonium
+Pandemonium is an online study guide software. This website is made to help you study for exams in a fun way.
+
+## Projected Features
+- Questions and Answers
+- Readings
+- A system to review past topics
+- Many different subjects
+
+## It's like a game
+Pandemonium will have many features such as XP and streaks as incentive for studying.
+
+
+Please do not edit the source code unless you know what you are doing.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Get Font from Google Fonts API-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabarito">
+        <title>Pandemonium: Free & Fun Studying</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id='bg-header'>
+            <h1>Pandemonium</h1>
+        </div>
+        <div id="units-section">
+            <div class="unit">
+                <span class='unit-header'><h2>Unit 1</h2></span>
+                <span class="unit-dropdown" style="text-align: right;"><a onclick="javascript:toggle_close(1)" class="dropdown-btn material-icons">arrow_drop_down</a></span><br>
+                <div class="unit-lessons" id="unit1-lessons">
+                    Hello!
+                </div>
+            </div>
+            <div class="unit">
+                <span class='unit-header'><h2>Unit 2</h2></span>
+                <span class="unit-dropdown" style="text-align: right;"><a onclick="javascript:toggle_close(2)" class="dropdown-btn material-icons">arrow_drop_down</a></span><br>
+                <div class="unit-lessons" id="unit2-lessons">
+                    Hello!
+                </div>
+            </div>
+            <div class="unit">
+                <span class='unit-header'><h2>Unit 3</h2></span>
+                <span class="unit-dropdown" style="text-align: right;"><a onclick="javascript:toggle_close(3)" class="dropdown-btn material-icons">arrow_drop_down</a></span><br>
+                <div class="unit-lessons" id="unit3-lessons">
+                    Hello!
+                </div>
+            </div>
+        </div>
+        <script src="logic.js"></script>
+    </body>
+</html>

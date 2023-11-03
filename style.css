@@ -21,12 +21,12 @@ h2 {
 }
 
 #units-section {
-    margin-top: 12px;
-    margin-left: 12px;
-    padding: 8px;
+    margin-top: 6px;
+    margin-left: 6px;
+    padding: 16px;
     border-radius: 30px;
     width: 50%;
-    box-shadow: 0px 0px 2px 2px #888888;
+    
 }
 
 .dropdown-btn {
@@ -35,5 +35,6 @@ h2 {
 }
 
 .unit-lessons {
+    padding: 4px;
     display: none;
 }
